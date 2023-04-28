@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
+    "root": "./dist",
+    "clean_urls": true,
+    "routes": {
+      "/**": "index.html"
+    },
+  
+
   "scripts": {
     "server": "npm run start --prefix backend",
     "client": "npm run dev --prefix frontend",
@@ -30,4 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4"
   }
+
+  
 }
+
