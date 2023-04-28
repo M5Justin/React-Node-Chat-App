@@ -1,0 +1,25 @@
+{
+  "name": "React-Node-Chat-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run start --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M5Justin/React-Node-Chat-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M5Justin/React-Node-Chat-App/issues"
+  },
+  "homepage": "https://github.com/M5Justin/React-Node-Chat-App#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
