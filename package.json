@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/M5Justin/React-Node-Chat-App#readme",
   "dependencies": {
-    "concurrently": "^8.0.1"
+    "concurrently": "^8.0.1",
+    "vite": "^4.3.3"
   }
 }
